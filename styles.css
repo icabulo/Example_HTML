@@ -1,0 +1,39 @@
+body {
+  color: #d98d8d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 80%; */
+  /* text-align: center; */
+}
+
+header {
+  text-align: center;
+  background-image: url(https://freeonlinesurveys.com/wp-content/uploads/2020/02/Buy-Survey-Responses.png);
+  background-size: 100% 100%;
+}
+
+form {
+  margin: auto auto;
+  width: 90%;
+  max-width: 700px;
+  border: 3px solid aqua;
+  /* display: block; */
+}
+
+#name,
+#email,
+#number,
+select {
+  display: block;
+  width: 80%;
+  margin-top: 5px;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+fieldset > label {
+  display: block;
+}
+/* input[type="checkbox"] {
+  display: block;
+} */
