@@ -1,22 +1,28 @@
 body {
-  color: #d98d8d;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* width: 80%; */
-  /* text-align: center; */
+  font-family: Verdana, Tahoma, sans-serif;
 }
 
 header {
   text-align: center;
-  background-image: url(https://freeonlinesurveys.com/wp-content/uploads/2020/02/Buy-Survey-Responses.png);
-  background-size: 100% 100%;
+  margin: auto auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1.3rem;
+  opacity: 0.8;
 }
 
 form {
   margin: auto auto;
   width: 90%;
   max-width: 700px;
-  border: 3px solid aqua;
+  /* border: 3px solid aqua; */
+  background-color: rgba(12, 11, 43, 0.5);
   /* display: block; */
+  padding: 2%;
 }
 
 #name,
@@ -24,16 +30,27 @@ form {
 #number,
 select {
   display: block;
-  width: 80%;
-  margin-top: 5px;
+  width: 90%;
+  margin-top: 10px;
   margin-bottom: 0%;
   margin-left: 5%;
-  margin-right: 5%;
 }
 
 fieldset > label {
   display: block;
+  margin-left: 1%;
 }
-/* input[type="checkbox"] {
-  display: block;
-} */
+
+#comment {
+  width: 90%;
+  margin-left: 5%;
+  height: 100px;
+}
+
+#submit {
+  width: 90%;
+  margin-left: 5%;
+  height: 30px;
+  font-size: 1.3rem;
+  background-color: rgba(172, 255, 47, 0.479);
+}
